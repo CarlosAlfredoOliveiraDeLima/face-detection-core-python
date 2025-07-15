@@ -1,4 +1,4 @@
-# 🎯 Face Detection Core Python
+# Face Detection Core Python
 
 Uma API Flask para detecção de rostos em imagens usando OpenCV, projetada como um microserviço eficiente que processa imagens e retorna anotações visuais dos rostos detectados.
 
@@ -7,20 +7,20 @@ Uma API Flask para detecção de rostos em imagens usando OpenCV, projetada como
 ![OpenCV](https://img.shields.io/badge/opencv-4.12.0-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📋 Descrição
+## Descrição
 
 Este projeto oferece uma API REST simples e eficiente para detectar rostos em imagens usando algoritmos de visão computacional. A aplicação recebe imagens em formato base64, processa-as usando classificadores Haar Cascade do OpenCV e retorna as imagens com retângulos desenhados ao redor dos rostos detectados.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- ✅ Detecção automática de rostos em imagens
-- ✅ Processamento de imagens em formato base64
-- ✅ Retorno de imagens anotadas com retângulos verdes
-- ✅ Contagem do número de rostos detectados
-- ✅ API REST simples e intuitiva
-- ✅ Tratamento de erros robusto
+-  Detecção automática de rostos em imagens
+-  Processamento de imagens em formato base64
+-  Retorno de imagens anotadas com retângulos verdes
+-  Contagem do número de rostos detectados
+-  API REST simples e intuitiva
+-  Tratamento de erros robusto
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **[Python 3.8+](https://python.org/)** - Linguagem principal
 - **[Flask 3.1.1](https://flask.palletsprojects.com/)** - Framework web
@@ -28,12 +28,12 @@ Este projeto oferece uma API REST simples e eficiente para detectar rostos em im
 - **[NumPy 2.2.6](https://numpy.org/)** - Processamento de arrays
 - **Haar Cascade Classifier** - Algoritmo de detecção facial
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Python 3.8 ou superior
 - pip (gerenciador de pacotes do Python)
 
-## 🚀 Instalação
+## Instalação
 
 1. **Clone o repositório**
    ```bash
@@ -64,7 +64,7 @@ Este projeto oferece uma API REST simples e eficiente para detectar rostos em im
 
 A API estará disponível em `http://localhost:5000`
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 face-detection-core-python/
@@ -78,7 +78,7 @@ face-detection-core-python/
 └── README.md                    # Este arquivo
 ```
 
-## 🔧 Como Usar
+## Como Usar
 
 ### Endpoint Principal
 
@@ -132,7 +132,7 @@ result = response.json()
 print(f"Rostos detectados: {result['faces_count']}")
 ```
 
-## ⚙️ Configuração de Detecção
+## Configuração de Detecção
 
 O algoritmo utiliza os seguintes parâmetros otimizados:
 
@@ -142,7 +142,7 @@ O algoritmo utiliza os seguintes parâmetros otimizados:
 - **Cor do retângulo**: Verde (0, 255, 0)
 - **Espessura**: 2 pixels
 
-## 🧪 Testando a API
+## Testando a API
 
 ### Com Postman
 
@@ -156,7 +156,7 @@ O algoritmo utiliza os seguintes parâmetros otimizados:
 O projeto inclui um arquivo `input.jpg` que pode ser usado para testes.
 No diretório raíz também há um arquivo `output.jpg` com o resultado esperado.
 
-## 🚨 Tratamento de Erros
+## Tratamento de Erros
 
 A API retorna os seguintes códigos de erro:
 
@@ -171,15 +171,15 @@ Exemplo de resposta de erro:
 }
 ```
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👥 Autor
+## Autor
 
 - **Carlos Alfredo Oliveira de Lima** - [GitHub](https://github.com/CarlosAlfredoOliveiraDeLima)
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - **OpenCV Community** - Pela excelente biblioteca de visão computacional
 - **Flask Team** - Pelo framework web minimalista e eficiente
@@ -187,4 +187,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-⭐ **Gostou do projeto? Deixe uma estrela!** ⭐
+ **Gostou do projeto? Deixe uma estrela!** 
