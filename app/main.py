@@ -26,9 +26,6 @@ def process_image():
         if image is None:
             return jsonify({'error': 'Failed to decode image'}), 400
 
-        # For testing de API with Postman and showing the image on a window
-        # cv.imshow('image', faces_identified)
-        # cv.waitKey(0)
 
         _, buffer = cv.imencode('.jpg', faces_identified)
         processed_image_base64 = base64.b64encode(buffer).decode('utf-8')
